@@ -34,6 +34,10 @@ export default {
             joti: [
                 'Joti One',
                 'cursive'
+            ],
+            ceviche: [
+                'Ceviche One',
+                'cursive'
             ]
         },
         borderRadius: {
