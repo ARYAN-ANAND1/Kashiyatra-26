@@ -35,12 +35,6 @@ const eventsPageData = {
       image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/steppe.jpeg",
       type: "international_carnival" as const
     },
-    {
-      id: 6,
-      title: "Coming Soon",
-      image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/question_mark.webp",
-      type: "international_carnival" as const
-    }
   ],
 
   graffiti: [
@@ -52,26 +46,20 @@ const eventsPageData = {
     },
   ],
 
-  juggler_shows: [
-    {
-      id: 10,
-      title: "Prashanth M",
-      image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/juggler.jpeg",
-      type: "juggler_shows" as const
-    },
-  ],
+  // juggler_shows: [
+  //   {
+  //     id: 10,
+  //     title: "Prashanth M",
+  //     image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/juggler.jpeg",
+  //     type: "juggler_shows" as const
+  //   },
+  // ],
 
   kavi_sammelan: [
     {
-      id: 11,
-      title: "Coming Soon",
-      image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/question_mark.webp",
-      type: "kavi_sammelan" as const
-    },
-    {
       id: 12,
-      title: "Coming Soon",
-      image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/question_mark.webp",
+      title: "",
+      image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/kavi.jpeg",
       type: "kavi_sammelan" as const
     }
   ]

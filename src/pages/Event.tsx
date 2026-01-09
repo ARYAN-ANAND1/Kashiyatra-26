@@ -88,12 +88,12 @@ const Events = () => {
 
       {/* Event Cards Grid */}
       <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {events.map((event) => (
             <div
               key={event.id}
               onClick={() => handleEventClick(event.id)}
-              className="group cursor-pointer"
+              className="group cursor-pointer w-full max-w-sm md:w-80"
             >
               <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-black border-2 border-gray-700 hover:border-gray-400 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20">
                 {/* Event Image */}
