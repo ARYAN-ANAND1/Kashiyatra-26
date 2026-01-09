@@ -25,7 +25,7 @@ const Events = () => {
     { key: "concert", label: "CONCERTS", color: "from-yellow-500 to-orange-500", ref: concertRef },
     { key: "international_carnival", label: "INTERNATIONAL CARNIVAL", color: "from-orange-500 to-red-500", ref: internationalCarnivalRef },
     { key: "graffiti", label: "GRAFFITI", color: "from-red-500 to-pink-600", ref: graffitiRef },
-    { key: "juggler_shows", label: "JUGGLER SHOWS", color: "from-green-500 to-teal-500", ref: jugglerShowsRef },
+    // { key: "juggler_shows", label: "JUGGLER SHOWS", color: "from-green-500 to-teal-500", ref: jugglerShowsRef },
     { key: "kavi_sammelan", label: "KAVI SAMMELAN", color: "from-pink-500 to-rose-500", ref: kaviSammelanRef }
   ]
 

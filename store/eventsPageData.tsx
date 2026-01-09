@@ -50,7 +50,7 @@ const eventsPageData = {
   //   {
   //     id: 10,
   //     title: "Prashanth M",
-  //     image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/juggler.jpeg",
+  //     image: "https://kashiyatra.s3.eu-north-1.amazonaws.com/question_mark.jpeg",
   //     type: "juggler_shows" as const
   //   },
   // ],
