@@ -17,7 +17,7 @@ const Events = () => {
   const concertRef = useRef<HTMLDivElement>(null)
   const internationalCarnivalRef = useRef<HTMLDivElement>(null)
   const graffitiRef = useRef<HTMLDivElement>(null)
-  const jugglerShowsRef = useRef<HTMLDivElement>(null)
+  // const jugglerShowsRef = useRef<HTMLDivElement>(null)
   const kaviSammelanRef = useRef<HTMLDivElement>(null)
 
   // Map event categories to display names, colors, and refs
